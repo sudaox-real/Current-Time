@@ -1,0 +1,42 @@
+<html>
+<head>
+	     <title>What is the current time?</title>
+     <meta name="theme-color" content="#206091"> 
+     <meta content="What is the time?" property="og:site_name">
+     <meta content='https://sudao.site/u/18.39.07-01.12.20.png' property='og:image'>
+     <meta content="This page shows you the accurate time for your timezone" property="og:title">
+     <meta property="og:title" content="This page shows you the accurate time for your timezone (UK Date Format)">
+     <meta property="og:description" content="What is the current time?">
+     <meta property="og:image" content="https://sudao.site/u/18.39.07-01.12.20.png">
+     <meta property="og:url" content="https://sudao.site/whatisthetime">
+     <meta name="twitter:title" content="What is the current time? ">
+     <meta name="twitter:description" content=" This page shows you the accurate time for your timezone (UK Date Format)">
+     <meta name="twitter:image" content=" https://sudao.site/u/18.39.07-01.12.20.png">
+     <meta name="twitter:card" content="summary_large_image">
+     <link rel="stylesheet" href="style.css">
+<script src="time.js"></script>
+<style>
+#timecont {
+  height: 500px;
+  width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+	<div id="timecont">
+		<p>Current time: </p><br>
+	    <div id="time">
+	    	<big>undefined</big>
+	    </div>
+	</div>
+</body>
+<script type="text/javascript">
+		var refreshtime = setInterval(function(){ timerefresh() }, 1);
+</script>
+
